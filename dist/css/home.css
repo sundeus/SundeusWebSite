@@ -1,0 +1,270 @@
+/* a.btn.btn-primary {
+    background-color: #fe7815 !important;
+    
+} */
+.btn btn-primary {
+    background-color: #fe7815;
+    border-radius: 10%;
+
+}
+.card:hover {
+    background: #fe7815;
+    color: #fff;
+    border-radius: 5px ;
+    box-shadow: 5px 5px 10px #eff3f7;
+    /* background: url("Website_Images/Advance Feature Black.png") no-repeat; */
+    /* border-color: #fff; */
+    /* border-top: 2px solid #fff; */
+} 
+
+.card:hover hr {
+  
+    border-color: #fff; 
+ border-top: 2px solid #fff; 
+} 
+.abc {
+    margin-left: 38%;
+    padding-top: 5%;
+}
+.btn-secondary.disabled, .btn-secondary:disabled {
+    color: #fff;
+    background-color: #fe7815;
+    border-color: #eff3f7;
+}
+button.btn.btn-secondary.btn-lg {
+    padding: .2
+    rem 2rem;
+}
+.btn-primary {
+    background-color: #fe8e38;
+    border-color: #eff3f7;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #fe7815!important;
+    border-color: #fe7815!important;
+}
+/* div.btn.btn-primary:hover{
+    color: #fff;
+    background: #fe7815;
+    border-color: #fe7815;
+} */
+
+
+
+
+
+
+.w-100 {
+    width: none;
+}
+body {
+    font-family: palatino;
+    font-size: 18px;
+}
+
+
+
+
+.jumbotron {
+   
+    background-color: #e8e8e8;
+}
+.about:after {
+    content: "";
+    display: block;
+    width: 6em;
+    max-width: 70%;
+    border-bottom: 0.3em solid #fe8e38;
+    margin: 2em auto 0;
+}
+
+h2 {
+    margin-bottom: -20px;
+}
+.text-primary {
+    color: #fe7815 !important;
+}
+.mb-4, .my-4 {
+    margin-bottom: -20px!important;
+}
+h3 {
+    margin-bottom: -20px;
+}
+
+a {
+    color: var(--white);
+ 
+}
+a.btn.btn-primary:hover {
+    background: #fe7815;
+    border-color: #eff3f7;
+
+} 
+.btn {
+    border-radius: 25px;
+    border-color: #fe8e38;
+}
+.btn .btn-primary:hover {
+    border-radius: 25px;
+    border-color: #fe8e38 !important;
+}
+/* a.btn.btn-primary.text {
+    border-radius: 25px;
+    border-color: orange;
+} */
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid; /*deleted by pushkar*/
+}
+
+
+.card .firstt {
+    display:inline-block;
+    position: absolute;
+  /*  top: 5;
+    left: 5; */
+    z-index: 99;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.card:hover .firstt{
+    /* background: url("/Website_Images/Configurable_White.png") no-repeat; */
+    display: none;
+}
+.card:hover .secImg{
+    /* background: url("/Website_Images/Configurable_White.png") no-repeat; */
+    display: inline-block;
+}
+
+.card:hover .btn.btn-primary{
+    /* background: url("/Website_Images/Configurable_White.png") no-repeat; */
+    border-color:white ;
+}
+
+
+.card .secondd {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .secondd {
+    display: inline;
+}
+.form-control {
+    border-radius: 13px;
+    font-size: 18px;
+}
+textarea {
+   width: 100%;
+   border-radius: 23px;
+}
+
+
+.form-control {
+
+
+    border: 1px solid #333333;
+    
+}
+textarea {
+    border-color: #333333;
+    font-size: 18px;
+    color:gray;
+}
+
+span.word {
+    font-size: 35px;
+}
+a.nav-link.text-black.font-weight-bold.px-3.currtpage {
+    color: #fe7815;
+}
+.btn.btn-primary-send {
+    padding: 0.375rem 2.75rem;
+    background-color: #fe8e38;
+    color: #fff;
+  
+}
+/* popup css */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  /* .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 1px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  } */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 265px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: -3px 1px;
+    position: absolute;
+    z-index: 1;
+    bottom: -71%;
+    left: -110%;
+    margin-bottom: -32px;
+}
+  
+  /* Popup arrow */
+  /* .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  } */
+  .popup .popuptext::after {
+    position: relative;
+    content: "";
+    position: absolute;
+    /* top: -11%; */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    /* bottom: 89%; */
+}
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }

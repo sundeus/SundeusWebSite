@@ -1,0 +1,29 @@
+.bottom-right{
+    position: absolute;
+     bottom: 25px;
+    right: 80px; 
+  
+}
+p.enterp {
+    font-size: 25px;
+    font-family: palatino-roman;
+}
+p.ml-3 {
+    font-size: 20px;
+    font-family: palatino;
+    /* font-weight: bold; */
+}
+.backgrd {
+    background-color: #e8e8e8;
+}
+.enterl{
+    font-size: 25px;
+    font-family: palatino-roman;
+}
+a.nav-link.text-black.font-weight-bold.px-3.currtpage {
+    color: #fe7815;
+  }
+/* .row.top-margin-header-width-dynamic {
+    margin-top: 64px;
+} */
+  

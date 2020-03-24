@@ -1,0 +1,191 @@
+html,body{
+    background-color: #eff3f7;
+    /* height: 100%; */
+    font-size: 14px;
+    font-family: Avenir Heavy;
+    color: #333333;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.loginContent{
+    background-color: #fff;
+    
+    /* height:100% ; */
+}
+.nameofform{
+    font-size: 26px;
+    color: #333333;
+    font-weight: bold;
+}
+.stretched-link{
+  color: #1458A8;
+  font-size: 13px;
+  font-family: Avenir Heavy;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #fe7815;
+  border-color: #fe7815!important;
+  height: 40px;
+  width: 172px;
+  font: 13px;
+  font-family: Avenir Heavy;
+
+}
+.btn-primary:hover{
+  background-color: #fe7815;
+  border-color: #fe7815!important;
+}
+/* .btn-primary:hover{
+  color: #fff;
+  background-color: #fe7815;
+  border-color: #fe7815;
+  height: 40px;
+  width: 172px;
+  font: 13px;
+  font-family: Avenir Heavy;
+
+} */
+/* steppers css */
+.wrapper-progressBar {
+    width: 100%
+}
+/* .progressbar .step0:before {
+  content: "1";
+  color: #fff;
+} */
+
+
+.progressBar li {
+    list-style-type: none;
+    float: left;
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+.progressBar .step0:before {
+  content: "1";
+  line-height: 30px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px;
+  background-color: #013164;
+  color: #fff;
+}
+
+.progressBar .active:before {
+  content: "2";
+  line-height: 30px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px;
+  background-color: #242f3a;
+  color: #fff;
+}
+.progressBar .step3:before {
+    content: "3";
+    line-height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px;
+    background-color: #eff3f7;
+    color: #333333;
+
+}
+
+.progressBar li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #013164;
+    top: 15px;
+    left: -53%;
+    z-index: 1;
+}
+
+.progressBar li:first-child:after {
+    content: none;
+}
+.progressBar li.active {
+  color: #333333;
+  font-size: 14;
+}
+
+
+.progressBar li.active:before {
+  border-color: #9E9E9E;
+  background-color:#FE7815;
+}
+
+
+
+.progressBar li.active + li:after {
+  background-color: #B2AeAe;
+}
+/* end of steppres */
+.required{
+    color:#E10D0D ;
+}
+.form-row>.col, .form-row>[class*=col-] {
+  padding-right: 5%;
+  padding-left: 1%;
+}
+.form-row {
+  margin-right: 15%;
+  margin-left: 0%;
+ }
+ 
+ .form-control.is-valid, .was-validated .form-control:valid {
+  border-color: #B2B1B0;
+  background-image: none;
+}
+.form-control{
+  height: 40px;
+}
+.custom-select {
+  height: 40px;
+}
+.custom-file-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: calc(1.5em + .75rem + 2px);
+  padding: 1.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 0.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.custom-file-label::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  height: calc(1.5em + 0.75rem);
+  padding: 1.375rem 0.75rem;
+  line-height: 0.5;
+  color: #495057;
+  content: "Browse";
+  background-color: #e9ecef;
+  border-left: inherit;
+  border-radius: 0 .25rem .25rem 0;
+}

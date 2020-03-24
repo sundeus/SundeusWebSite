@@ -1,0 +1,47 @@
+.whitesct{background-color: #fff;
+    
+/* text-align: center; */}
+p{
+font-size: 18px;
+font-family: palatino;
+}
+h2.submitcv {
+    color: #fe7815;
+    font-size: 22px;
+    /* font-family: palatino-roman; */
+}
+span.subpart {
+    color: #fe7815;
+    font-size: 22px;
+    font-family: palatino-roman;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 0.2rem;
+}
+.about:after {
+  content: "";
+  display: block;
+  width: 5em;
+  max-width: 70%;
+  border-bottom: 4px solid #fe8e38;
+  margin: 0em auto 0;
+  padding-bottom: 2px;
+  
+}
+.maintitle{
+    font-size: 22px;
+    font-family: palatino-roman;
+}
+.pl-5, .px-5 {
+    padding-left: 3% !important;
+}
+a.nav-link.text-black.font-weight-bold.px-3.currtpage {
+    color: #fe7815;
+  }
+  .tagline{
+      color: #000;
+      font-weight: bold;
+      text-align: center;
+      font-size: 23px;
+      font-family: palatino;
+  }

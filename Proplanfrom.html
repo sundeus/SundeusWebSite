@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./dist/css/login.css">
+    <title>Register Form</title>
+  </head>
+  <body>
+    <div class="my-3 ml-4">
+    <span class="nameofform">Register</span>
+    </div>
+<div class="loginContent mx-3 pt-3">
+  <div class="Container-fluid px-5">
+  <div class="row">
+                       
+    <div class="wrapper-progressBar">
+      <ul class="progressBar">
+        <li class="step0"><b>Plan Selection</b></li>
+        <li class="active"><b>Organisation Information</b></li>
+        <li class="step3"><b>Verification</b></li>
+      </ul>
+    </div>
+  </div>
+  <div class="requiredfield pt-5 pb-3">
+    <b>**Fields marked with (<span class="required">*</span>) are required</b>
+  </div>
+  <form>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer01">Organisation ID</label>
+        <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+        <!-- <div class="valid-feedback">
+          Looks good!
+        </div> -->
+      </div>
+      <!-- <div class="col-md-6 mb-3">
+        <label for="validationServer02">Last name</label>
+        <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div> -->
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer02">Organisation Name <span class="required">*</span></label>
+        <input type="text" class="form-control is-invalid" id="validationServer02" value="Add your Company name" required>
+        <div class="invalid-feedback">
+          Please Provide valid Name
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationServer03">Registration Number</label>
+        <input type="text" class="form-control is-valid" id="validationServer03" value="Add your company Registration Number" required>
+        <!-- <div class="valid-feedback">
+          Looks good!
+        </div> -->
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer04">Address Line 1 <span class="required">*</span></label>
+        <input type="text" class="form-control is-valid" id="validationServer05" value="Add your comapny Address Line1" required>
+        <div class="valid-feedback">
+          valid Address
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationServer06">Address Line 2</label>
+        <input type="text" class="form-control is-valid" id="validationServer06" value="Add your company Address Line2" required>
+        <!-- <div class="valid-feedback">
+          valid Address.
+        </div> -->
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-3 mb-3">
+        <label for="validationServer07">Zip Code <span class="required">*</span></label>
+        <input type="text" class="form-control is-invalid" id="validationServer07" value="Zip Code" required>
+        <div class="invalid-feedback">
+          Please provide a valid Zip code.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationServer08">Country <span class="required">*</span></label>
+        <select class="custom-select is-invalid" id="validationServer08" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid Country.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationServer09">Number of Employees <span class="required">*</span></label>
+        <select class="custom-select is-invalid" id="validationServer09" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select Employees.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationServer10">Number of Licences Required <span class="required">*</span></label>
+        <select class="custom-select is-invalid" id="validationServer10" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a number.
+        </div>
+      </div>
+    </div>
+ 
+   
+  <!-- </form>
+  <form> -->
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer11">Website <span class="required">*</span></label>
+        <input type="text" class="form-control is-invalid" id="validationServer11" value="Add your Company Email Id" required>
+        <div class="invalid-feedback">
+          Please provide a valid EmailId.
+        </div>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputEmail4"><b>Company Logo</b></label>
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputEmail4" required>
+            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+            <div class="invalid-feedback">Example invalid custom file feedback</div>
+          </div> 
+        </div> 
+
+     
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer14">First Name(For Admin)<span class="required">*</span></label>
+        <input type="text" class="form-control is-invalid" id="validationServer14" value="Add your first name" required>
+        <div class="invalid-feedback">
+          Please provide a valid First Name.
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationServer15">Last Name(For Admin)<span class="required">*</span></label>
+        <input type="text" class="form-control is-invalid" id="validationServer15" value="Add your last name" required>
+        <div class="invalid-feedback">
+          Please provide a valid Last Name.
+        </div>
+      </div>
+    
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer12">Official Email Address <span class="required">*</span></label>
+        <input type="text" class="form-control is-invalid" id="validationServer12" value="Add your company Email Address" required>
+        <div class="invalid-feedback">
+          Please provide a valid Email.
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationServer13">Contact Number <span class="required">*</span></label>
+        <input type="text" class="form-control is-invalid" id="validationServer13" value="Add your Contact Number" required>
+        <div class="invalid-feedback">
+          Please provide a valid contact number.
+        </div>
+      </div>
+    
+    </div>
+ 
+  </form>
+  <br>
+    <hr>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        I have read and agree to all the terms and conditions below (check all Boxes)
+      </label>
+      <br>
+        <!-- <input class="form-check-input is-invalid ml-4" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label ml-5" for="invalidCheck3">
+      I have read and agree to the<a href="#"> Enterprise Agreement.</a>
+      </label> -->
+      <br>
+      <input class="form-check-input is-invalid ml-4" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label ml-5" for="invalidCheck3">
+        I have read and agree to the <a href="#">Sundeus Online Service Agreement.</a>
+      </label>
+      <br>
+      <!-- <input class="form-check-input is-invalid ml-4" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label ml-5" for="invalidCheck3">
+        I have read and agree to the <a href="#">Developer Program terms & Condition.</a>
+      </label> -->
+      <!-- <div class="invalid-feedback">
+        You must agree before submitting.
+      </div> -->
+    </div>
+  </div>
+  
+  <button class="btn btn-primary my-3" type="submit">Next</button>
+  <a href="contractMagmt.html#Sectionplans" class="stretched-link">&nbsp;&nbsp;&lt;&lt; <b>Go to Plans & Pricing</b></a>
+
+  </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

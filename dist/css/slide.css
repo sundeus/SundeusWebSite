@@ -1,0 +1,114 @@
+.dt-content-center{
+  width:50%;
+  float:center;
+}
+
+.dt-laptop-slider{
+ /* width:50%;*/
+  /*float: center;*/
+  /* margin-right:250px; */
+  background: url('./../../Website_Images/Laptop2_laptop.svg');
+  /* background-size: 1299px 761px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*width: 1000px;*/
+  z-index:4;
+  background-size: cover;
+    height: 0;
+    padding: 0;
+  /*  padding-bottom: calc(100% * 3 / 4);*/
+  padding-bottom: 40%;
+
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .dt-laptop-slider{
+    /* width:50%;*/
+     /*float: center;*/
+     /* margin-right:250px; */
+     background: url('./../../Website_Images/Laptop3.svg');
+     /* background-size: 1299px 761px; */
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     /*width: 1000px;*/
+     z-index:4;
+     background-size: cover;
+       height: 0;
+       padding: 0;
+     /*  padding-bottom: calc(100% * 3 / 4);*/
+     padding-bottom: 40%;
+   
+   }
+  }
+
+.laptop-screen{
+ /* margin: 74px 168px;*/
+  /* margin: 67px 167px; */
+  /* width: 570px; */
+ /* width: 651px;*/
+  /*height: 435px;*/
+  overflow: hidden;
+  /* overflow-x: hidden; */
+  /*position: relative;*/
+  position:absolute;
+  margin-left: 16.4%;
+  width: 67%;
+  height: 70.5%;
+  margin-top: 8%;
+
+}
+.app-shot{
+  position:absolute;
+  animation:round 16s infinite;
+  opacity:0;
+  z-index:-1;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
+@keyframes round{   
+  25%{opacity:1;}
+  40%{opacity:0;}
+} 
+
+img:nth-child(4){animation-delay:0s;}
+img:nth-child(3){animation-delay:4s;}
+img:nth-child(2){animation-delay:8s;}
+img:nth-child(1){animation-delay:12s;}
+
+
+/* Swapna....css background */
+.temp.py-5 {
+  background: grey;
+}
+h3.base {
+color: #fff;
+}
+h3.text-center.basc {
+font-size: 1.30em;
+color: #fff;
+}
+html,body {
+max-width: 100%;
+overflow-x: hidden;
+}
+/* img {
+  padding-right: -51%;
+  margin-left: 22%;
+  background-image: url(./../../Website_Images/mobilepic.png);
+} */
+
+
+.mobile{
+  z-index: 1000;
+  margin-top: -19.5%;
+  /* background-image: url("./../../Website_Images/mobilepic.png"); */
+  
+}
+
+/* .screen{
+  background-image: url("./../../Website_Images/mobilepic.png");
+} */
