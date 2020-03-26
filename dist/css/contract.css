@@ -219,12 +219,12 @@ a.btn.btn-secondary.btn-md.active {
 } */
 .centered {
   position: absolute;
-  top: 13%;
+  top: 12%;
   left: 50%;
   /* font-variant-caps: all-petite-caps; */
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 23px;
+  font-size: 25px;
   font-family: palatino;
   /* font-weight: bold; */
 }
