@@ -223,8 +223,8 @@ a.nav-link.text-black.font-weight-bold.px-3.currtpage {
     position: absolute;
     z-index: 1;
     bottom: -71%;
-    left: -110%;
-    margin-bottom: -32px;
+    left: -60%;
+    margin-bottom: -28px;
 }
   
   /* Popup arrow */
