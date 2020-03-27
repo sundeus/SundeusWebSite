@@ -22,18 +22,17 @@
     border-color: #fff; 
  border-top: 2px solid #fff; 
 } 
-.abc {
+/* .abc {
     margin-left: 38%;
     padding-top: 5%;
-}
+} */
 .btn-secondary.disabled, .btn-secondary:disabled {
     color: #fff;
     background-color: #fe7815;
     border-color: #eff3f7;
 }
 button.btn.btn-secondary.btn-lg {
-    padding: .2
-    rem 2rem;
+    padding: .2rem 2rem;
 }
 .btn-primary {
     background-color: #fe8e38;
@@ -223,7 +222,7 @@ a.nav-link.text-black.font-weight-bold.px-3.currtpage {
     position: absolute;
     z-index: 1;
     bottom: -71%;
-    left: -60%;
+    left: -35%;
     margin-bottom: -28px;
 }
   
