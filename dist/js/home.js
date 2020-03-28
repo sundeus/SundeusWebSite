@@ -10,7 +10,14 @@
 
 function myFunction() {
     var popup = document.getElementById("myPopup");
+    // var popup= document.getElementById("contactus").reset();
+   $('#form_contactUs').trigger("reset");
+   $('textarea').val("");
+  //  $('textaers').trigger("reset");
+
+    // document.getElementById("clearformm").value="";
     popup.classList.toggle("show");
+    // return false;
   }
 
 //function myFunction()
