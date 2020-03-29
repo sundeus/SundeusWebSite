@@ -15,12 +15,27 @@
   
   }
 }
-@media (min-width: 1349px) and (max-width: 1686px){
+@media (min-width: 1349px) and (max-width: 1686px){                      
   nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top {
     padding-left: 8%;
   
   }
+}  /*( for IE)*/
+
+
+/* for Tab,ipad,ipro layout  ....sapna*/  
+/* @media (max-width: 1370px) and (min-width: 768px){
+.top-margin-header-width-dynamic {
+    margin-top: 60px;
 }
+}
+@media (min-width: 768px){
+nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top {
+    padding-left: 11%;
+}}
+a.nav-link.text-black.font-weight-bold.px-3{
+  font-size: 10px;
+} */
 /* @media (min-width: 767px){
 .renav{
     padding-left: 8%;
@@ -54,11 +69,11 @@ img.img {
 }*/
 
 
-.row {
-    /*
+/* .row {
+    
   margin-right: -30px;
-  margin-left: -30px;*/
-}
+  margin-left: -30px;
+} */
 .top-margin-60{
   margin-top: 60px;
 }
