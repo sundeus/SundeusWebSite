@@ -270,4 +270,6 @@ a.nav-link.text-black.font-weight-bold.px-3.currtpage {
   .form-row>.col, .form-row>[class*=col-] {
     padding-right: 15px;
     padding-left: 15px;
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
 }
