@@ -17,7 +17,8 @@
 <!-- Bootstrap CSS -->
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
 
@@ -43,7 +44,7 @@
 <!-- navbar -->
 <!-- <div class="navtop" data-spy="scroll" data-target=".navbar" data-offset="50"> -->
 
-<nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+<nav class="navbar navbar-expand-xl navbar-light bg-white fixed-top">
   <!-- <div class="mx-auto d-sm-flex d-block flex-sm-nowrap"> -->
 
 <a class="navbar-brand" href="index.html"><img src="./Website_Images/logo_test.PNG" class="img" alt="Responsive image"></a>
@@ -60,13 +61,13 @@
 
 <li class="nav-item" >
 
-<a class="nav-link text-black font-weight-bold px-3" href="index.html">HOME</a>
+<a class="nav-link text-black font-weight-bold refont px-3" href="index.html">HOME</a>
 
 </li>
 
 <li class="nav-item ">
 
-<a class="nav-link text-black font-weight-bold px-3 currtpage" href="contractMagmt.html">CONTRACT MANAGEMENT</a>
+<a class="nav-link text-black font-weight-bold refont px-3 currtpage" href="contractMagmt.html">CONTRACT MANAGEMENT</a>
 
 
 
@@ -74,26 +75,26 @@
 
 <li class="nav-item">
 
-<a class="nav-link text-black font-weight-bold px-3" href="SundeusOff.html">SUNDEUS OFFERINGS</a>
+<a class="nav-link text-black font-weight-bold refont px-3" href="SundeusOff.html">SUNDEUS OFFERINGS</a>
 
 </li>
 
 <li class="nav-item">
 
-<a class="nav-link text-black font-weight-bold px-3" href="About.html">ABOUT US</a>
+<a class="nav-link text-black font-weight-bold refont px-3" href="About.html">ABOUT US</a>
 
 
 </li>
 
 <li class="nav-item">
 
-    <a class="nav-link text-black font-weight-bold px-3" href="Careers.html">CAREERS</a>
+    <a class="nav-link text-black font-weight-bold refont px-3" href="Careers.html">CAREERS</a>
     
     </li>
 
     <li class="nav-item">
 
-        <a class="nav-link text-black font-weight-bold px-3" href="index.html#contactus">CONTACT US</a>
+        <a class="nav-link text-black font-weight-bold refont px-3" href="index.html#contactus">CONTACT US</a>
         
         </li>
 </ul>
@@ -199,7 +200,7 @@
       <div class="col-md-10">
      <!-- <br>  -->
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-xl-3 htcard">
             <div class="card bordsecd">
           <img src="Website_Images/Contract Mgmt/BG copy.png" class="card-img-top" alt="..." style="height: 180px;">
           <div class="centered my-3">Key Features</div>
@@ -226,7 +227,7 @@
          </div>
         </div>
           <!-- second -->
-          <div class="col-md-3">
+          <div class="col-xl-3 margincard">
               <div class="card bordsec">
           <!-- <a href="EArchit.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a> -->
 
@@ -259,7 +260,7 @@
            </div>
           </div>
           <!-- third -->
-          <div class="col-md-3">
+          <div class="col-xl-3 margincard">
           <div class="card bordsecd">
             <img src="Website_Images/Contract Mgmt/BG copy.png" class="card-img-top" alt="..."style="height: 180px;">
            <div class="centered">
@@ -287,7 +288,7 @@
             </div>
           </div>
           <!-- four -->
-          <div class="col-md-3">
+          <div class="col-xl-3 margincard">
             <div class="card bordsecd">
             <img src="Website_Images/Contract Mgmt/BG copy.png" class="card-img-top" alt="..."style="height: 180px;">
             <div class="centered">
@@ -367,6 +368,9 @@
     @media (min-width: 768px) and (max-width: 1370px){
 .top-margin-header-width-dynamic{
 margin-top: 79px;
+}
+.margincard{
+  padding-top: 2%;
 }
   }
   @media (min-width: 768px) and (max-width: 1370px){ 

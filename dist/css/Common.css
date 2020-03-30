@@ -14,7 +14,7 @@
     padding-left: 15%;
   
   }
-}
+}  /*commited by pushkar*/
 @media (min-width: 1349px) and (max-width: 1686px){                      
   nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top {
     padding-left: 8%;
@@ -22,8 +22,28 @@
   }
 }  /*( for IE)*/
 
-
 /* for Tab,ipad,ipro layout  ....sapna*/  
+
+/* @media (min-width: 600px) and (max-width: 1082px){
+nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top{
+    padding-left: 5%;
+    font-size: 12px;
+  }
+a.nav-link.text-black.font-weight-bold.refont.px-3 {
+    font-size: 12px;
+}
+
+    } */
+
+/* @media (min-width: 293px) and (max-width: 1082px){ 
+.navbar-expand-md .navbar-nav .nav-link,nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top{
+padding-left: 6%;
+
+}
+.navbar-expand-md .navbar-nav .nav-link{
+  font-size: 14px;
+}
+} */
 /* @media (max-width: 1370px) and (min-width: 768px){
 .top-margin-header-width-dynamic {
     margin-top: 60px;
