@@ -30,6 +30,7 @@ svg.svg-inline--fa.fa-check.fa-w-16 {
 p.text-justify.mb-2 {
   font-size: 22px;
   font-family: palatino;
+  letter-spacing: 0px;
 }
 h2 {
   font-size: 30px;
@@ -248,7 +249,7 @@ html, body {
 /* .labeltextt{
   margin-left: 25%;
 } */
-p.align-self-center.mb-2 {
+/* p.align-self-stretch.mb-2 {
   font-size: 22px;
   font-family: palatino;
-}
+} */
