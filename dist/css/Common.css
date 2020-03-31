@@ -24,12 +24,12 @@
 
 /* for Tab,ipad,ipro layout  ....sapna*/  
 
-@media (min-width: 600px) and (max-width: 1082px){
+/* @media (min-width: 600px) and (max-width: 1082px){
 nav.navbar.navbar-expand-xl.navbar-light.bg-white.fixed-top{
     padding-left: 5%;
   }
 
-}
+} */
 
 /* @media (min-width: 293px) and (max-width: 1082px){ 
 .navbar-expand-md .navbar-nav .nav-link,nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top{
