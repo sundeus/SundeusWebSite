@@ -248,3 +248,7 @@ html, body {
 /* .labeltextt{
   margin-left: 25%;
 } */
+p.justify-content-sm-center.mb-2 {
+  font-size: 22px;
+  font-family: palatino;
+}
