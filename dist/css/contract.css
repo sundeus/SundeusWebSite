@@ -248,7 +248,7 @@ html, body {
 /* .labeltextt{
   margin-left: 25%;
 } */
-p.justify-sm-center.mb-2 {
+p.align-self-center.mb-2 {
   font-size: 22px;
   font-family: palatino;
 }
