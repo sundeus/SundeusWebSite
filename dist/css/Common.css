@@ -10,13 +10,13 @@
 
 
 @media (min-width: 768px){
-  nav.navbar.navbar-expand-xl.navbar-light.bg-white.fixed-top {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
     padding-left: 15%;
   
   }
 }  /*commited by pushkar*/
 @media (min-width: 1349px) and (max-width: 1686px){                      
-  nav.navbar.navbar-expand-xl.navbar-light.bg-white.fixed-top {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
     padding-left: 8%;
   
   }
