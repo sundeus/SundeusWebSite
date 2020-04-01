@@ -23,6 +23,10 @@ p.ml-3 {
 a.nav-link.text-black.font-weight-bold.px-3.currtpage {
     color: #fe7815;
   }
+  .enterprise_laut{
+      font-size: 20px;
+      font-family: palatino;
+  }
 /* .row.top-margin-header-width-dynamic {
     margin-top: 64px;
 } */
