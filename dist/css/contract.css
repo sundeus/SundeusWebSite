@@ -255,11 +255,19 @@ html, body {
   font-family: palatino;
 } */
 h4.cmtext {
-  font-size: 22px;
+  font-size: 20px;
   font-family: palatino;
   text-align: justify;
 }
 ul.feature_layut {
   font-family: palatino;
   font-size: 20px;
+  /* list-style-type: ; */
 }
+/* li:before {
+  position: absolute;
+ 
+  font-family: 'FontAwesome';
+  content: "\fooc";
+  color: green;
+} */
