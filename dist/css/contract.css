@@ -264,6 +264,9 @@ ul.feature_layut {
   font-size: 20px;
   /* list-style-type: ; */
 }
+span.bann_head {
+  font-size: 32px;
+}
 /* li:before {
   position: absolute;
  
