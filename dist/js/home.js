@@ -11,13 +11,16 @@
 function myFunction() {
     var popup = document.getElementById("myPopup");
     // var popup= document.getElementById("contactus").reset();
-    validation();
-   $('#form_contactUs').trigger("reset");
+   var validateStatus= validation();
+ if(validateStatus)
+ {  $('#form_contactUs').trigger("reset");
    $('textarea').val("");
+   popup.classList.toggle("show");
+}
   //  $('textaers').trigger("reset");
 
     // document.getElementById("clearformm").value="";
-    popup.classList.toggle("show");
+    
     // return false;
   }
 
@@ -29,7 +32,7 @@ function myFunction() {
     var email = document.getElementById("email").value;
     var company = document.getElementById("company").value;
     var mobile = document.getElementById("mobile").value;
-    var selectname = document.getElementById("selectname").value('Choose Enquiry');
+     var selectname = document.getElementById("exampleFormControlSelect1").value;
     var comment = document.getElementById("comment").value;
 
 
@@ -37,7 +40,7 @@ function myFunction() {
       document.getElementById('username').innerHTML = "Please Enter FirstName";
       return false;
     }
-    if((name.length <=2 ) || (name.length > 20)){
+    if((name.length <2 ) || (name.length > 20)){
       document.getElementById('username').innerHTML = "Please Enter name length in between 2 and 20";
       return false;
     }
@@ -104,9 +107,10 @@ function myFunction() {
       return false;
     }
     if((comment.length <=2 ) || (comment.length > 50)){
-      document.getElementById('message').innerHTML = "Please Enter name length in between 2 and 50";
+      document.getElementById('message').innerHTML = "Please enter Meassage length in between 2 and 50";
       return false;
     }
+    return true;
   }
 //function myFunction()
 //{
