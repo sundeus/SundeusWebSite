@@ -73,7 +73,7 @@ ul.list-group.list-group-flush {
 .about:after {
   content: "";
   display: block;
-  width: 5em;
+  width: 3em;
   max-width: 70%;
   border-bottom: 4px solid #fe8e38;
   margin: 0em auto 0;

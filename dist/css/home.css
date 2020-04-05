@@ -72,7 +72,7 @@ body {
 .about:after {
     content: "";
     display: block;
-    width: 6em;
+    width: 3em;
     max-width: 70%;
     border-bottom: 0.3em solid #fe8e38;
     margin: 2em auto 0;
@@ -85,10 +85,10 @@ h2 {
     color: #fe7815 !important;
 }
 .mb-4, .my-4 {
-    margin-bottom: -20px!important;
+    margin-bottom: -30px!important;
 }
 h3 {
-    margin-bottom: -20px;
+    margin-bottom: -30px;
 }
 
 a {
