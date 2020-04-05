@@ -553,12 +553,12 @@
             <div class="row justify-content-md-center">
 
 
-              <div class="col-md-9 mt-5 mx-2">
+              <div class="col-md-9 mx-2">
               
                <!-- <div class="row">-->
 <!-- <div id="clearformm"> -->
             <form id="form_contactUs" action="#" onsubmit="return validation()">
-              <section class="about mb-5 mt-3">
+              <section class="about mb-3 mt-3">
                 <h3 class="text-center font-weight-bold toptit">Contact Us</h3>
                 </section>
                 <!-- <div id="clearformm"> -->
@@ -567,11 +567,11 @@
 
                   <div class="col-sm-6 py-2">     
                   <input type="text" class="form-control" placeholder="First Name" id="name" name="name">
-                    <span id="username" class="text-danger font-weight-bold"></span>
+                    <span id="username" class="text-danger font-weight-bold errmesg"></span>
                   </div>
                   <div class="col-sm-6 py-2">
                     <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname">
-                    <span id="lastname" class="text-danger font-weight-bold"></span>
+                    <span id="lastname" class="text-danger font-weight-bold errmesg"></span>
 
                   </div>
                 <!--  </div>-->
@@ -581,12 +581,12 @@
 
                     <div class="col-sm-6 py-2">
                       <input type="text" class="form-control" placeholder="Office Email" id="email" name="email">
-                      <span id="emails" class="text-danger font-weight-bold"></span>
+                      <span id="emails" class="text-danger font-weight-bold errmesg"></span>
 
                     </div>
                     <div class="col-sm-6 py-2">
                       <input type="text" class="form-control" placeholder="Company Name" id="company">
-                      <span id="companyname" class="text-danger font-weight-bold"></span>
+                      <span id="companyname" class="text-danger font-weight-bold errmesg"></span>
 
                     </div>
                   <!--  </div>-->
@@ -596,7 +596,7 @@
 
                     <div class="col-sm-6 py-2">
                       <input type="text" class="form-control" placeholder="Phone" id="mobile" name="mobile">
-                      <span id="phonenum" class="text-danger font-weight-bold"></span>
+                      <span id="phonenum" class="text-danger font-weight-bold errmesg"></span>
 
                     </div>
                     <div class="col-sm-6 py-2">
@@ -608,7 +608,7 @@
                         <option>Artificial Intelligence</option>
                         <option>Others</option>
                       </select>
-                      <span id="chooseopt" class="text-danger font-weight-bold"></span>
+                      <span id="chooseopt" class="text-danger font-weight-bold errmesg"></span>
 
                     </div>
                     <!--</div>-->
@@ -616,7 +616,7 @@
                   <div class="form-row mt-2">
                     <div class="col-sm-12">
                     <textarea rows="5" cols="85" placeholder="   Type Your message here..."form="useform"  name="comment" id="comment"></textarea>
-                    <span id="message" class="text-danger font-weight-bold"></span>
+                    <span id="message" class="text-danger font-weight-bold errmesgtextara"></span>
 
                   </div>
                   </div>
@@ -741,6 +741,12 @@ p.contfsub{
 }
 h3.toptit{
   font-size: 20px;
+}
+span.errmesg{
+    font-size: 14px;
+}
+span.errmesgtextara{
+    font-size: 14px;
 }
   }
 @media (min-width: 1370px){
