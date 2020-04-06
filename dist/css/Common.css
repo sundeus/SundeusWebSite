@@ -1,9 +1,5 @@
-/* a.navbar-brand {
-  padding-left: 12%;
-} */
-/* ul.navbar-nav {
-  margin-left: -45px;
-} */
+
+
 .navbar-light .navbar-nav .nav-link:hover {
   color: #fe7815;
 }
@@ -22,48 +18,7 @@
   }
 }  /*( for IE)*/
 
-/* for Tab,ipad,ipro layout  ....sapna*/  
 
-/* @media (min-width: 600px) and (max-width: 1082px){
-nav.navbar.navbar-expand-xl.navbar-light.bg-white.fixed-top{
-    padding-left: 5%;
-  }
-
-} */
-
-/* @media (min-width: 293px) and (max-width: 1082px){ 
-.navbar-expand-md .navbar-nav .nav-link,nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top{
-padding-left: 6%;
-
-}
-.navbar-expand-md .navbar-nav .nav-link{
-  font-size: 14px;
-}
-} */
-/* @media (max-width: 1370px) and (min-width: 768px){
-.top-margin-header-width-dynamic {
-    margin-top: 60px;
-}
-}
-@media (min-width: 768px){
-nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top {
-    padding-left: 11%;
-}}
-a.nav-link.text-black.font-weight-bold.px-3{
-  font-size: 10px;
-} */
-/* @media (min-width: 767px){
-.renav{
-    padding-left: 8%;
-  
-  }
-} */
-
-/* @media (max-width: 1349px){
-  nav.navbar.navbar-expand-md.navbar-light.bg-white.fixed-top {
-padding-left: 8%;  
-}
-} */
 footer {
   font-size: 18px;
   font-family: palatino;
@@ -78,18 +33,7 @@ img.img {
  height: 50px;
 }
 
-/*commented by pushkar*/
-/*
-.navbar-toggler {
-   margin-bottom: 2rem;
-}*/
 
-
-/* .row {
-    
-  margin-right: -30px;
-  margin-left: -30px;
-} */
 .top-margin-60{
   margin-top: 60px;
 }
@@ -110,13 +54,14 @@ h3{
 .card hr:hover {
   border-color: #fff;
 }
-/**/
-
-
-
-/* .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-  position: relative;
-  width: 100%;
-  padding-right: 1%;
-  padding-left: 1%;
+/* @viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
 } */
+
+
+
