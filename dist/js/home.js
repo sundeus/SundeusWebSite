@@ -10,18 +10,14 @@
 
 function myFunction() {
     var popup = document.getElementById("myPopup");
-    // var popup= document.getElementById("contactus").reset();
    var validateStatus= validation();
  if(validateStatus)
  {  $('#form_contactUs').trigger("reset");
    $('textarea').val("");
    popup.classList.toggle("show");
 }
-  //  $('textaers').trigger("reset");
 
-    // document.getElementById("clearformm").value="";
     
-    // return false;
   }
 
 
@@ -35,13 +31,7 @@ function myFunction() {
      var selectname = document.getElementById("exampleFormControlSelect1").value.trim();
     var comment = document.getElementById("comment").value.trim();
 // console.log(name.length);
-// console.log(lname);
-// console.log(email);
 
-// console.log(company);
-// console.log(mobile);
-// console.log(selectname);
-// console.log(comment.length);
 
 var flag = true;
 
@@ -50,8 +40,8 @@ var flag = true;
       // return false;
       flag = false;
     }
-    else if((name.length <2 ) || (name.length > 20)){
-      document.getElementById('username').innerHTML = "Please Enter name length in between 2 and 20";
+    else if((name.length <2 ) || (name.length > 25)){
+      document.getElementById('username').innerHTML = "Please Enter name length in between 2 and 25";
       // return false;
       flag = false;
     }
@@ -69,8 +59,8 @@ var flag = true;
       // return false;
       flag = false;
     }
-    else if((lname.length <=2 ) || (lname.length > 20)){
-      document.getElementById('lastname').innerHTML = "Please Enter name length in between 2 and 20";
+    else if((lname.length <=2 ) || (lname.length > 25)){
+      document.getElementById('lastname').innerHTML = "Please Enter name length in between 2 and 25";
       // return false;
       flag = false;
     }
@@ -86,7 +76,7 @@ var flag = true;
     if(email == ""){
       document.getElementById('emails').innerHTML = "Please Enter valid EmailId";
       // return false;
-      flag=false;
+      flag = false;
 
     }
     else if(email.indexOf('@') <= 0){
@@ -97,7 +87,7 @@ var flag = true;
    else  if((email.charAt(email.length-4)!= '.') && (email.charAt(email.length-3)!= '.')){
       document.getElementById('emails').innerHTML = ". invalid position";
       // return false;
-      flag=false;
+      flag = false;
     }
     else {
       document.getElementById('emails').innerHTML = "";
@@ -107,13 +97,13 @@ var flag = true;
     if(company == ""){
       document.getElementById('companyname').innerHTML = "Please Enter valid CompanyName";
       // return false;
-      flag =false;
+      flag = false;
     }
-    else if((company.length <=2 ) || (company.length > 15)){
-      document.getElementById('companyname').innerHTML = "Please Enter name length in between 2 and 15";
+    else if((company.length <=2 ) || (company.length > 25)){
+      document.getElementById('companyname').innerHTML = "Please Enter name length in between 2 and 25";
       // return false;
 
-      flag=false;
+      flag = false;
     }
     else {
       document.getElementById('companyname').innerHTML = "";
@@ -122,15 +112,15 @@ var flag = true;
     // PHONE VALIDATIONS
     if(mobile == ""){
       document.getElementById('phonenum').innerHTML = "Please Enter Correct Mobile No";
-      flag =false;
+      flag = false;
     }
     else if(isNaN(mobile)){
       document.getElementById('phonenum').innerHTML = "User must write digits only";
-      flag= false;
+      flag = false;
     }
     else if(mobile.length!=10){
       document.getElementById('phonenum').innerHTML = "Mobile number must be 10 digits only";
-      flag= false;
+      flag = false;
     }
     else{
       document.getElementById('phonenum').innerHTML = "";
@@ -139,7 +129,7 @@ var flag = true;
     // COMPANY FIELD
     if(selectname == "Choose Enquiry"){
       document.getElementById('chooseopt').innerHTML = "Please Select Enquiry Name";
-      flag= false;
+      flag = false;
     }
     else {
       document.getElementById('chooseopt').innerHTML = "";
@@ -147,15 +137,16 @@ var flag = true;
     }
     // TEXTAREA MESSAGE
     if(comment == ""){
-      document.getElementById('message').innerHTML = "Please Provide valid Message";
+      document.getElementById('messagee').innerHTML = "Please Provide valid Message";
       flag = false;
     }
   
-   else if((comment.length <=2 ) || (comment.length > 50)){
-      document.getElementById('message').innerHTML = "Please enter Meassage length in between 2 and 50";
-      flag= false;
+   else if((comment.length <=2 ) || (comment.length > 75)){
+      document.getElementById('messagee').innerHTML = "Please enter Meassage length in between 2 and 75";
+      flag = false;
     }
-    else {      document.getElementById('message').innerHTML = "";
+    else {      
+      document.getElementById('messagee').innerHTML = "";
   }
     return flag;
   }

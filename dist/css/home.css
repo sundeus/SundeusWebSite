@@ -214,6 +214,21 @@ a.nav-link.text-black.font-weight-bold.px-3.currtpage {
   } */
   .popup .popuptext {
     visibility: hidden;
+    width: 250%;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: -8%;
+    left: 115%;
+    font-size: 25px;
+    margin-bottom: 303%;
+}
+
+  /* .popup .popuptext {
+    visibility: hidden;
     width: 265px;
     background-color: #555;
     color: #fff;
@@ -225,7 +240,7 @@ a.nav-link.text-black.font-weight-bold.px-3.currtpage {
     bottom: -71%;
     left: -65%;
     margin-bottom: -28px;
-}
+} */
   
   /* Popup arrow */
   /* .popup .popuptext::after {
