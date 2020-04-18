@@ -17,7 +17,7 @@ function myFunction() {
 	Host: "smtp.gmail.com",
 	Username : "sundeusconsulting@gmail.com",
 	Password : "xrlykupbpqjorvji",
-	To : 'er.pushkarbisht@gmail.com',
+	To : 'contact@sundeus.com',
 	From : document.getElementById("email").value.trim(),
 	Subject : "Sundeus Enquiry",
 	Body : "You have got an Enquiry. \n COMPANY NAME : "+document.getElementById("company").value.trim()+". \n"+"FIRST NAME : "+document.getElementById("name").value.trim()+". \n"+ "LAST NAME : "+document.getElementById("lname").value.trim()+". \n"+"CONTACT NUMBER : "+document.getElementById("mobile").value.trim()+". \n"+"EMAIL : "+document.getElementById("email").value.trim()+". \n"+"ENQUIRY : "+document.getElementById("exampleFormControlSelect1").value.trim()+". \n"+"MESSAGE : "+document.getElementById("comment").value.trim(),
