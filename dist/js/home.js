@@ -20,7 +20,7 @@ function myFunction() {
 	To : 'er.pushkarbisht@gmail.com',
 	From : document.getElementById("email").value.trim(),
 	Subject : "Sundeus Enquiry",
-	Body : "You have got an Enquiry. \n Company Name : "+document.getElementById("company").value.trim()+". \n"+"First Name : "+document.getElementById("name").value.trim()+". \n"+ "Last Name : "+document.getElementById("lname").value.trim()+". \n"+"Contact Number : "+document.getElementById("mobile").value.trim()+". \n"+"Email : "+document.getElementById("email").value.trim()+". \n"+"Enquiry : "+document.getElementById("exampleFormControlSelect1").value.trim()+". \n"+"Message : "+document.getElementById("comment").value.trim(),
+	Body : "You have got an Enquiry. \n COMPANY NAME : "+document.getElementById("company").value.trim()+". \n"+"FIRST NAME : "+document.getElementById("name").value.trim()+". \n"+ "LAST NAME : "+document.getElementById("lname").value.trim()+". \n"+"CONTACT NUMBER : "+document.getElementById("mobile").value.trim()+". \n"+"EMAIL : "+document.getElementById("email").value.trim()+". \n"+"ENQUIRY : "+document.getElementById("exampleFormControlSelect1").value.trim()+". \n"+"MESSAGE : "+document.getElementById("comment").value.trim(),
 	}).then(
 		message =>{ console.log(message);
 			   $('#form_contactUs').trigger("reset");
