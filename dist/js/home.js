@@ -22,7 +22,7 @@ function myFunction() {
 	Subject : "Sundeus Enquiry",
 	Body : "You have got an Enquiry. \n Company Name : "+document.getElementById("company").value.trim()+". \n"+"First Name : "+document.getElementById("name").value.trim()+". \n"+ "Last Name : "+document.getElementById("lname").value.trim()+". \n"+"Contact Number : "+document.getElementById("mobile").value.trim()+". \n"+"Email : "+document.getElementById("email").value.trim()+". \n"+"Enquiry : "+document.getElementById("exampleFormControlSelect1").value.trim()+". \n"+"Message : "+document.getElementById("comment").value.trim(),
 	}).then(
-		message => console.log(message);
+		message => console.log(message)
 	);
 
 	 $('#form_contactUs').trigger("reset");
