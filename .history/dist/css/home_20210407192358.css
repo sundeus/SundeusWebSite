@@ -7,7 +7,7 @@
     border-radius: 10%;
 
 }
-.card:hover {
+.card .cardhvr:hover {
     background: #fe7815;
     color: #fff;
     border-radius: 5px ;

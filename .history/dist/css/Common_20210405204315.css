@@ -16,10 +16,11 @@
   }
 }  /*( for IE)*/
 
-@media (min-width: 1226px) and (max-width:1349px){
+@media (max-width: 1226px){
   nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
-   padding-left: 3%; 
-}
+    padding-left: 3% !important;
+  
+  }
 }
 
 footer {

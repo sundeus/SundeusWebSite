@@ -9,18 +9,20 @@
   
   }
 }  /*commited by pushkar*/
-@media (min-width: 1349px) and (max-width: 1686px){                      
+@media (min-width: 1226px) and (max-width: 1686px){                      
   nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
     padding-left: 8%;
   
   }
 }  /*( for IE)*/
 
-@media (min-width: 1226px) and (max-width:1349px){
+/* @media (min-width: 1226px){
   nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
    padding-left: 3%; 
-}
-}
+    padding: 0 3%;
+  
+  }
+} */
 
 footer {
   font-size: 18px;
